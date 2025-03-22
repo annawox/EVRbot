@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 
-bot = Bot(token="8043599454:AAHIhhr8Z3NDlmu7sRiP2H83e_3F9ZSHapo")
+bot = Bot("TELEGRAM_BOT_TOKEN") #ссылка на secrets нужно добавить
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=["start"])
