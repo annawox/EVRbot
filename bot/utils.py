@@ -1,6 +1,7 @@
 from aiogram import types
 from bot.utils import analyze_code_with_model
 
+
 def format_response(response):
     """
     Форматирует ответ, полученный от модели.
