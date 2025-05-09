@@ -12,6 +12,7 @@ def format_response(response):
     else:
         return "Не удалось получить результат анализа."
 
+
 async def handle_document(message: types.Message):
     """
     Обрабатывает файл или текст, отправленный пользователем, и отправляет результат анализа.
