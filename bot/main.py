@@ -2,6 +2,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 
 
+
 bot = Bot("TELEGRAM_BOT_TOKEN") #ссылка на secrets нужно добавить
 dp = Dispatcher(bot)
 
